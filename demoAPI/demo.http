@@ -20,18 +20,19 @@ Content-Type: application/json
 
 POST {{host}}/todos
 Content-Type: application/json
-{
-  "description": "Homework",
-  "assignedTo": "Katrin",
-  "done":true
-}
-###
-POST {{host}}/todos
-Content-Type: application/json
+
 {
   "description": "Homework",
   "assignedTo": "Katrin",
   "done":false
+}
+###
+POST {{host}}/todos
+Content-Type: application/json
+
+{
+  "description": "Cooking",
+  "assignedTo": "Katrin"
 }
 
 
