@@ -16,6 +16,25 @@ Content-Type: application/json
   "description": "Cooking",
   "assignedTo": "Adam"
 }
+###
+
+POST {{host}}/todos
+Content-Type: application/json
+{
+  "description": "Homework",
+  "assignedTo": "Katrin",
+  "done":true
+}
+
+POST {{host}}/todos
+Content-Type: application/json
+{
+  "description": "Homework",
+  "assignedTo": "Katrin",
+  "done":false
+}
+
+
 
 ###
 // Add a todo item with unknown person
